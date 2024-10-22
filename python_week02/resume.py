@@ -1,0 +1,17 @@
+print('โปรดกรอกข้อมูลส่วนตัว')
+name = input('โปรดกรอกชื่อ \n')
+age = input('โปรดกรอกอายุ \n')
+num = input('โปรดกรอกรหัสประจำตัวนักเรียน \n')
+leve = input('โปรดกรอกชั้นปี')
+nickname = input('โปรดกรอกชื่อเล่น \n')
+height = float(input('โปรดกรอกส่วนสูง \n'))
+weight = float(input('โปรดกรอกน้ำหนัก \n'))
+sum = height+weight
+sum = str(sum)
+
+print('ประวัติโดยย่อ')
+print('ชื่อ: '+ name , 'อายุ: '+ age +' ปี')
+print('รหัสประจำตัวนักเรียน:' + num,'ระดับชั้น: '+leve)
+print('ชื่อเล่น: '+ nickname)
+print('ส่วนสูง: '+ str(height) + ' เซนติเมตร' , 'น้ำหนัก: '+ str(weight) + ' กิโลกรัม')
+print("ส่วนสูง + น้ำหนัก = "+(sum))
